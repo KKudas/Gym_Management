@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List - Simple">2b1c080881e05dc63b917044290b233f</macroponent>
+        <name>New Workout Plans</name>
+        <properties>{"columns":"number,estimated_completion,short_description,trainer,workouts","fixedQuery":"","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","followFilters":true,"limit":20,"listTitle":"New Workout Plans","maxCharLimit":4000,"maxColumns":5.0,"overrideWordWrapUserPref":false,"query":"sys_created_on&lt;javascript:gs.beginningOfLast30Days()","refreshRequested":"","table":"x_1839738_gym_mana_workout_plans","wordWrap":false,"showBorder":true,"isDashboard":true}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-02 13:24:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74b667b777745aa8ae6cd1c183e5efdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Workout Plans</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
+        <sys_update_name>par_visualization_74b667b777745aa8ae6cd1c183e5efdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-02 13:24:45</sys_updated_on>
+        <type>List - Simple</type>
+    </par_visualization>
+</record_update>
