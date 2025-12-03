@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -30,7 +30,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column/>
+        <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -46,7 +46,7 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>workout_plan.trainer</field>
+        <field>workout_plan.sys_created_on</field>
         <field_list>number,priority,state,assigned_to,short_description,sys_class_name</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -55,7 +55,7 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>month</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -72,7 +72,7 @@
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
-        <no_bulk_migration>true</no_bulk_migration>
+        <no_bulk_migration>false</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>
@@ -81,14 +81,14 @@
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row/>
+        <row>active</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -106,23 +106,23 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-02 13:12:13</sys_created_on>
-        <sys_id>146418868329b6105fc655a6feaad3d4</sys_id>
+        <sys_created_on>2025-12-03 17:17:09</sys_created_on>
+        <sys_id>0606165293a9b690273e7d532bba106b</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Top Trainers</sys_name>
+        <sys_name>Workout Plan Popularity Per Month</sys_name>
         <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
-        <sys_update_name>sys_report_146418868329b6105fc655a6feaad3d4</sys_update_name>
+        <sys_update_name>sys_report_0606165293a9b690273e7d532bba106b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-03 17:18:23</sys_updated_on>
+        <sys_updated_on>2025-12-03 17:19:07</sys_updated_on>
         <table>x_1839738_gym_mana_gym_transaction</table>
-        <title>Top Trainers</title>
+        <title>Workout Plan Popularity Per Month</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field/>
-        <type>bar</type>
+        <trend_field>workout_plan.sys_created_on</trend_field>
+        <type>line_bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

@@ -28,7 +28,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[if (current.trainer.changes()) {
-    var gr = new GlideRecord('x_[scope]_gym_mgmt_workout_plan');
+    var gr = new GlideRecord('x_1839738_gym_mana_workout_plans');
     gr.addQuery('trainer', current.trainer);
     gr.query();
 
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b25ad1283ed7210e857ba29feaad321</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Max Number of Workout Plan</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
         <sys_update_name>sys_script_0b25ad1283ed7210e857ba29feaad321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-03 13:44:39</sys_updated_on>
+        <sys_updated_on>2025-12-03 15:55:12</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
