@@ -37,7 +37,65 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>You have been assigned to workout plan ${number}.</p>]]></message_html>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .email-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .header {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .content {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .content p {
+    margin: 15px 0;
+  }
+  .footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    border-top: 1px solid #ddd;
+  }
+  .footer p {
+    margin: 0;
+  }
+</style>
+<div class="email-container">
+<div class="header">
+<h1>Gym Management</h1>
+</div>
+<div class="content">
+<p><strong>Hi ${trainer.first_name},</strong></p>
+<p>You have been assigned to workout plan <strong>${number}</strong>.</p>
+</div>
+<div class="footer">
+<p>This is an automated notification. Please do not reply to this email. For assistance, please visit our support page.</p>
+</div>
+</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Trainer Assigned Notification</name>
@@ -59,7 +117,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9fe2299a83ad7210e857ba29feaad3c1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Trainer Assigned Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
@@ -67,7 +125,7 @@
         <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
         <sys_update_name>sysevent_email_action_9fe2299a83ad7210e857ba29feaad3c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-03 13:38:54</sys_updated_on>
+        <sys_updated_on>2025-12-06 00:15:50</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

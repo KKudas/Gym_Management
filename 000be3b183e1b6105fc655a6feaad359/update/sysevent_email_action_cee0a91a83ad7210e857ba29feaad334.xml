@@ -38,7 +38,58 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Your workout plan ${workout_plan.number} has been approved.<br>Trainer: ${workout_plan.trainer.name}</p>]]></message_html>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .header {
+      background-color: #4CAF50;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      border-radius: 8px 8px 0 0;
+    }
+    .content {
+      padding: 15px;
+      font-size: 16px;
+    }
+    .footer {
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+<div class="email-container">
+<div class="header">
+<h1>Gym Management</h1>
+</div>
+<div class="content">
+<p><strong>Hi ${members.first_name},</strong></p>
+<p>Great news! Your workout plan <strong>${workout_plan.number}</strong> has been approved, and you're all set to get started. ]]>🎉<![CDATA[</p>
+<p>Your trainer, <strong>${workout_plan.trainer.name}</strong>, is excited to guide you on this journey, and they&rsquo;re ready to help you crush your fitness goals. ]]>🏋<![CDATA[️&zwj;♂️</p>
+<p>Now it's time to put your plan into action! Every step you take gets you closer to your goals&mdash;stay focused, stay consistent, and most importantly, enjoy the process. You've got this! ]]>🔥<![CDATA[</p>
+<p>Best,</p>
+<p>The Gym Management Team</p>
+</div>
+<div class="footer">
+<p>This is an automated notification. Please do not reply to this email. For assistance, please visit our support page.</p>
+</div>
+</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Enrollment Approved Notification</name>
@@ -60,7 +111,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cee0a91a83ad7210e857ba29feaad334</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Enrollment Approved Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
@@ -68,7 +119,7 @@
         <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
         <sys_update_name>sysevent_email_action_cee0a91a83ad7210e857ba29feaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-03 13:41:51</sys_updated_on>
+        <sys_updated_on>2025-12-06 00:10:27</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
