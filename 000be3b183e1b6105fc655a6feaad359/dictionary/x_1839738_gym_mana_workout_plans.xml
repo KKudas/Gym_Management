@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6a2d63f983e1b6105fc655a6feaad395" label="Workout Plans" max_length="40" name="x_1839738_gym_mana_workout_plans" type="collection">
-        <element label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
         <element label="Workouts" max_length="4000" name="workouts" reference="x_1839738_gym_mana_workouts" type="glide_list"/>
         <element label="Estimated completion" max_length="40" name="estimated_completion" type="glide_time"/>
-        <element label="Trainer" max_length="32" name="trainer" reference="sys_user" type="reference"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="sys_user" reference_qual="roles=x_1839738_gym_mana.trainer^EQ" reference_qual_condition="roles=x_1839738_gym_mana.trainer^EQ" type="reference"/>
         <element label="Short Description" max_length="200" name="short_description" type="string"/>
+        <element display="true" label="Workout Name" max_length="255" name="workout_name" type="string"/>
         <index name="index">
             <element name="trainer"/>
         </index>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">46381d1347653210932f97da116d436a</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>mezon.sotto</sys_created_by>
+        <sys_created_on>2025-12-06 15:21:05</sys_created_on>
+        <sys_id>db38515347653210932f97da116d4380</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gym Management" source="x_1839738_gym_mana">000be3b183e1b6105fc655a6feaad359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gym Management">000be3b183e1b6105fc655a6feaad359</sys_scope>
+        <sys_update_name>sp_instance_db38515347653210932f97da116d4380</sys_update_name>
+        <sys_updated_by>mezon.sotto</sys_updated_by>
+        <sys_updated_on>2025-12-06 15:21:24</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "146418868329b6105fc655a6feaad3d4",
+		"displayValue": "Top Trainers"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=db38515347653210932f97da116d4380"/>
+</record_update>

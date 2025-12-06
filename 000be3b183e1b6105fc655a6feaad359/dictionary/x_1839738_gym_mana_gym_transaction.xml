@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="569d233d83e1b6105fc655a6feaad379" extends="task" label="Gym Transaction" max_length="40" name="x_1839738_gym_mana_gym_transaction" type="collection">
-        <element label="Workout Plan" max_length="32" name="workout_plan" reference="x_1839738_gym_mana_workout_plans" type="reference"/>
         <element label="Member" max_length="32" name="members" reference="sys_user" type="reference"/>
+        <element label="Workout Plan" max_length="32" name="workout_plan" reference="x_1839738_gym_mana_workout_plans" type="reference"/>
+        <element label="Work Out Plan" max_length="32" name="work_out_plan" reference="x_1839738_gym_mana_workout_plans" type="reference"/>
     </element>
 </database>

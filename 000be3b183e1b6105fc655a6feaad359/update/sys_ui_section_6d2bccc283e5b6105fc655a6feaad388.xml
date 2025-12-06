@@ -98,6 +98,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workout_name</element>
+            <position>7</position>
+            <sys_created_by>mezon.sotto</sys_created_by>
+            <sys_created_on>2025-12-06 15:24:07</sys_created_on>
+            <sys_id>73e85d9347653210932f97da116d4349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1839738_gym_mana_workout_plans" sys_domain="global" view="Default view">6d2bccc283e5b6105fc655a6feaad388</sys_ui_section>
+            <sys_updated_by>mezon.sotto</sys_updated_by>
+            <sys_updated_on>2025-12-06 15:24:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

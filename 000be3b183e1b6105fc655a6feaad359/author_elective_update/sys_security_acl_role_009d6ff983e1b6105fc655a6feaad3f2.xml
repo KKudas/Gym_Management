@@ -41,7 +41,7 @@
         <update_guid_history>c09d6ff978e1b610845720964cd352f6:-2038122965</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1839738_gym_mana_workout_plans.x_1839738_gym_mana.workout_plans_user">b10e637d83e1b6105fc655a6feaad32c</sys_audit_delete>
+        <sys_audit_delete display_value="">b10e637d83e1b6105fc655a6feaad32c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-02 10:24:38</sys_created_on>

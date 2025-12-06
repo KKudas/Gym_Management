@@ -41,7 +41,7 @@
         <update_guid_history>e5dd2b3d52e1b61095a799d25c573e26:-1526996220</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1839738_gym_mana_gym_transaction.x_1839738_gym_mana.gym_transaction_user">73fdef3d83e1b6105fc655a6feaad371</sys_audit_delete>
+        <sys_audit_delete display_value="">73fdef3d83e1b6105fc655a6feaad371</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-02 10:24:31</sys_created_on>
